@@ -1,4 +1,4 @@
-package application;
+package plantes;
 
 
 import java.sql.Connection;
@@ -16,7 +16,7 @@ public class ConnectionDB {
         // conectar
         try {      
             
-            String dbURL = "jdbc:mysql://localhost:3306/plantes" ;
+            String dbURL = "jdbc:mysql://localhost:3306/bdplante" ;
             
             conn = DriverManager.getConnection(dbURL, "root", "770829-Terol");
             if( conn != null ) 
